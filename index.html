@@ -1,247 +1,1243 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Sandor Kruk</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" type="image/jpg" href="images/avatar_1.jpg" sizes="16x16" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<style>
-		span { font-weight: bold; }
-		</style>
-	</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sandor Kruk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
 
-		<!-- Header -->
-			<div id="header">
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
 
-				<div class="top">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico" />
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar52"><img src="images/avatar_1.jpg" alt="" /></span>
-							<h1 id="title">Sandor Kruk</h1>
-							<p><font size="4">Astronomer</font></p>
-							<p><font size="2">PhD Student</font></p>
-							<p><font size="2">University of Oxford</font></p>
-							<p><font size="2">Merton College</font></p>
-						</div>
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700"
+      rel="stylesheet"
+    />
 
-					<!-- Nav -->
-						<nav id="nav">
-							<!--
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <!-- Flaticons  -->
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css" />
 
-								Prologue's nav expects links in one of two formats:
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="colorlib-page">
+      <div class="container-wrap">
+        <a
+          href="#"
+          class="js-colorlib-nav-toggle colorlib-nav-toggle"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-expanded="false"
+          aria-controls="navbar"
+          ><i></i
+        ></a>
+        <aside
+          id="colorlib-aside"
+          role="complementary"
+          class="border js-fullheight"
+        >
+          <div class="text-center">
+            <div
+              class="author-img"
+              style="background-image: url(images/about.jpg)"
+            ></div>
+            <h1 id="colorlib-logo"><a href="index.html">Dr Sandor Kruk</a></h1>
+            <span class="position"
+              ><a href="https://www.cosmos.esa.int/web/personal-profiles/sandor-kruk">Research Fellow</a></li> 
+              <span class="position" > <a href="https://www.esa.int">European Space Agency</a>
+             </div>
 
-								1. Hash link (scrolls to a different section within the page)
+          <nav id="colorlib-main-menu" role="navigation" class="navbar">
+            <div id="navbar" class="collapse">
+              <ul>
+                <li class="active">
+                  <a href="#" data-nav-section="home">Home</a>
+                </li>
+                <li><a href="#" data-nav-section="about">About</a></li>
+                <li><a href="#" data-nav-section="services">Projects</a></li>
+                <li><a href="#" data-nav-section="experience">Career</a></li>
+                <li><a href="#" data-nav-section="awards">Awards</a></li>
+                <li><a href="#" data-nav-section="education">Publications</a></li>
+                <li><a href="#" data-nav-section="work">Press Releases</a></li>
+                <li><a href="#" data-nav-section="blog">Education</a></li>
+                <li><a href="#" data-nav-section="outreach">Outreach</a></li>
+                <li><a href="#" data-nav-section="contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
 
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-							-->
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#projects" id="projects-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Projects</span></a></li>
-								<li><a href="https://ui.adsabs.harvard.edu/#search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&q=Kruk%2C%20Sandor&sort=date%20desc%2C%20bibcode%20desc" id="projects-link" class="skel-layers-ignoreHref"><span class="icon fa-file-text-o">Publications</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
-
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://twitter.com/kruksandor?lang=en" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.facebook.com/kruk.sandor" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="https://github.com/sandorkruk" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://www.linkedin.com/in/sandor-kruk/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="mailto:sandor.kruk@physics.ox.ac.uk" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-
-				</div>
-
-			</div>
-
-		<!-- Main -->
-			<div id="main">
-
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
-							<header>
-								<h2 class="alt"><font size="10" color="white"><span>What shapes galaxies?</span></font><br />
-								<p style="line-height:0.5em; margin-top:10px; margin-bottom:30px; font-family:arial;" align="left"><font size="3.8" color="white" weight="bold"><span>My name is Sandor and I'm a fourth and final year PhD student at the University of Oxford. In order to answer the question above, I ask volunteers to help out and answer questions about galaxy shapes at <a href="https://www.galaxyzoo.org/">www.galaxyzoo.org</a>. <br><br>
-								Galaxies show a wide range of shapes, colours, sizes and brightnesses. Visual inspection provides tremendous help in recognising features such as bars, bulges, spiral arms, rings etc. I then use <a href="http://www.nottingham.ac.uk/astronomy/megamorph/">clever automated tools</a> to study the distribution of light of these features, which tells us something about their history: how they were formed and how they evolve.<br><br>
-								In particular, I am interested in barred galaxies, like <a href="https://www.spacetelescope.org/images/opo0501a/">NGC1300</a> in the background. These galaxies show a linear feature (a bar) spanning across the central regions of the galaxy, and are fairly frequent amongst disc galaxies. I am also interested in peculiar galaxies: galaxies with an off-centre bar or nucleus, boxy/peanut shaped bulges, red spirals, blue ellipticals. <br><br>
-								During my PhD I lead a study to combine the visual inspection of galaxies using Galaxy Zoo with multi-band decomposition to fit the largest sample of barred galaxies to date, in a study available <a href="https://academic.oup.com/mnras/article/doi/10.1093/mnras/stx2605/4411828/Galaxy-Zoo-Secular-evolution-of-barred-galaxies">here</a>. Using these decompositions I have identified a <a href="https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stx1026">sample of galaxies with a bar that is off-centre from the disc</a> and found that these offsets are frequent in dwarf irregular galaxies.</span></font>
-
-
-							</header>
-							<footer>
-								<a href="https://www2.physics.ox.ac.uk/sites/default/files/profiles/kruk/cv-sk-201712-42324.pdf" class="button scrolly">Curriculum Vitae</a>
-							</footer>
-
-						</div>
-					</section>
-
-				<!-- Portfolio -->
-					<section id="projects" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Projects</h2>
-							</header>
-
-							<p style="line-height:1em; margin-top:1px; margin-top:10px; font-family:arial;" align="left"><font size="3" color="black" weight="bold">I am involved in Galaxy Zoo and the, more general, Zooniverse crowdsourcing citizen science project as well as in the largest integral field spectroscopic survey of nearby galaxies, SDSS-IV MaNGA. During my free time, I enjoy working on outreach projects in astronomy and, more generally, on education. I am the founder of the British Astronomy and Astrophysics Olympiad, an astronomy competition for secondary school students in the UK. I am also the co-founder of the Oxford for Romania Summer School, a week-long multi-disciplinary summer school for bright high school students from Romania, coming from disadvantaged backgrounds. I also enjoy building citizen science projects with the new <a href="https://www.zooniverse.org/lab/">Zooniverse project builder.</a><br><br> See below my list of publications and the projects I'm involved in.</p>
-
-							<div class="row">
-								<div class="4u 12u$(mobile)">
-									<article class="item">
-										<a href="https://ui.adsabs.harvard.edu/#search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&q=Kruk%2C%20Sandor&sort=date%20desc%2C%20bibcode%20desc" class="image fit"><img src="images/ads.jpg" alt="" /></a>
-										<header>
-											<h3><font size="4"><strong><a href="https://ui.adsabs.harvard.edu/#search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&q=Kruk%2C%20Sandor&sort=date%20desc%2C%20bibcode%20desc">Publications</a></strong></font><br><font size="2">Check out my latest publications on ADS</font></h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://www.zooniverse.org/" class="image fit"><img src="images/zooniverse3.jpg" alt="" /></a>
-										<header>
-											<h3><font size="4">Zooniverse</font></h3>
-										</header>
-									</article>
-									</div>
-									<div class="4u 12u$(mobile)">
-									<article class="item">
-										<a href="https://www.galaxyzoo.org/" class="image fit"><img src="images/gz.jpg" alt="" /></a>
-										<header>
-											<h3><font size="4">Galaxy Zoo</font></h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="http://www.sdss.org/surveys/manga/" class="image fit"><img src="images/manga.jpg" alt="" /></a>
-										<header>
-											<h3><font size="4">MaNGA</font></h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="http://www.nottingham.ac.uk/astronomy/megamorph/" class="image fit"><img src="images/Megamorph.jpg" alt="" /></a>
-										<header>
-											<h3><font size="4">MegaMorph</font></h3>
-										</header>
-										</article>
-								</div>
-								<div class="4u$ 12u$(mobile)">
-									<article class="item">
-										<a href="https://www.physics.ox.ac.uk/olympiad/BAAOHomePage.html" class="image fit"><img src="images/BAAO.jpg" alt="" /></a>
-										<header>
-											<h3><font size="4">British Astronomy and Astrophysics Olympiad</font></h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://www.oxfordforromania.org/" class="image fit"><img src="images/Ox4Ro.jpg" alt="" /></a>
-										<header>
-											<h3><font size="4">Oxford for Romania</font></h3>
-										</header>
-									</article>
-								</div>
-							</div>
-
-						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-								<p style="line-height:1.4em; margin-top:1px; margin-top:10px; font-family:arial;" align="left"><font size="3" color="black" weight="bold">I hail from <a href="https://en.wikipedia.org/wiki/Transylvania">Transylvania</a>, northern Romania and I moved to the UK 7 years ago to do my studies, first in London, at <a href="http://www.ucl.ac.uk/~zcapg73/">University College London</a> and then in Oxford, at <a href="https://www2.physics.ox.ac.uk/contacts/people/kruk">University of Oxford</a>. Since I came to the UK, I enjoyed working on various volunteering projects, at the <a href="http://www.ulo.ucl.ac.uk/">University of London Observatory</a>, at <a href="http://www.universitycatholic.net/">Newman House Catholic Chaplaincy</a> and more recently in <a href="https://www.merton.ox.ac.uk/">Merton College</a>, my college in Oxford. I also enjoy travelling around the world and taking photos, like the ones below. Feel free to flick through them below. </p>
+          <div class="colorlib-footer">
+              <ul>
+              <li>
+                <a href="https://www.facebook.com/kruk.sandor"
+                  ><i class="icon-facebook2"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/kruksandor?lang=en"
+                  ><i class="icon-twitter2"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/sandorkruk"
+                  ><i class="icon-github"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/sandor-kruk/"
+                  ><i class="icon-linkedin2"></i
+                ></a>
+              </li>
+              <li>
+                <a href="mailto:sandor.kruk@esa.int"
+                  ><i class="icon-mail5"></i
+                ></a>
+              </li>
+            </ul>
 
 
-							<!-- <a href="#" class="image featured"><img src="images/mk.jpg" alt="" /></a> -->
+          <br><p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> 
+          </div>
+        </aside>
 
-							<iframe align="center" src="http://www.flickr.com/slideShow/index.gne?user_id=151449976@N08&tags=tag_name" frameBorder="0" width="900" scrolling="no" height="600"></iframe>
+        <div id="colorlib-main">
+          <section id="colorlib-hero" class="js-fullheight" data-section="home">
+            <div class="flexslider js-fullheight">
+              <ul class="slides">
+                <li style="background-image: url(images/nebula.jpg)">
+                  <div class="overlay"></div>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div
+                        class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text"
+                      >
+                        <div class="slider-text-inner js-fullheight">
+                          <div class="desc">
+                            <h1>Hi! <br />I'm Sandor</h1>
+                            <h2>
+                              Astrophysicist and space data scientist at ESA.
+                            </h2>
+                            <p>
+                              <a  href="https://drive.google.com/file/d/1l1VAYPVYpsoTF07RcwH-ikwVH9xmBN8Z/view" class="btn btn-primary btn-learn"
+                                > Download CV <i class="icon-download4"></i
+                              ></a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
 
-						</div>
-					</section>
+          <section class="colorlib-about" data-section="about">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div class="col-md-12">
+                  <div
+                    class="row row-bottom-padded-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="col-md-12">
+                      <div class="about-desc">
+                        <span class="heading-meta">About Me</span>
+                        <h2 class="colorlib-heading">Who Am I?</h2>
+                        <p>
+                          <strong>Hi I'm Sandor Kruk</strong>, Research Fellow
+                          at the European Space Agency in the Netherlands. I have wide research
+                          interests regarding the analysis of Big Data astronomical surveys, 
+                          including the detection and classification of galaxies, asteroids and 
+                          gravitational lenses with citizen science and artificial intelligence. 
+                          My scientific interests lie in the formation and evolution 
+                          of galaxies across the cosmic history, galaxy morphology, galaxy dynamics
+                          and star formation. 
+                        </p>
+                        <p>
+                          I am of Hungarian ethnicity, but was borned and grew up in the north of 
+                          Romania, in the beautiful region of Maramures. I discovered 
+                          astronomy in high school and have been in love with it ever since. 
+                          Besides research, I have a strong passion for science education and 
+                          public outreach - I have lead various initiatives to increase access, 
+                          diversity and inclusion in science, both in my home country and abroad. 
+                          You can find out more about them below! 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInLeft"
+                    >
+                      <div class="services color-1">
+                        <span class="icon2"><i class="icon-bulb"></i></span>
+                        <h3>Research</h3>
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInRight"
+                    >
+                      <div class="services color-2">
+                        <span class="icon2"
+                          ><i class="icon-data"></i
+                        ></span>
+                        <h3>Space Data Science</h3>
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInTop"
+                    >
+                      <div class="services color-3">
+                        <span class="icon2"><i class="icon-group"></i></span>
+                        <h3>Citizen Science</h3>
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInBottom"
+                    >
+                      <div class="services color-4">
+                        <span class="icon2"><i class="icon-book"></i></span>
+                        <h3>Education and Public Outreach</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-				<!-- Contact -->
-					<section id="three">
-						<div class="container">
-						<header class="major">
-						<h2><p>Contact</p></h2>
-						</header>
-							<!--<div class="8u 12u$(small)">-->
-							<!--	<form method="post" action="mailto:rebecca.smethurst@physics.ox.ac.uk">-->
-							<!--		<div class="row uniform 50%">-->
-							<!--			<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>-->
-							<!--			<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>-->
-							<!--			<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>-->
-							<!--		</div>-->
-							<!--	</form>-->
-							<!--	<ul class="actions">-->
-							<!--		<li><input type="submit" value="Send Message" /></li>-->
-							<!--	</ul>-->
-							<!--</div>-->
-							<div class="container">
-								<section id="contact" class="four">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon fa-home"><span class="label">Address</span>
-										University of Oxford <br />
-										&nbsp &nbsp &nbsp Astrophysics Sub-department<br/>
-										&nbsp &nbsp &nbsp Denys Wilkinson Building, Keble Road<br/>
-										&nbsp &nbsp &nbsp Oxford OX1 3RH <br/>
-										&nbsp &nbsp &nbsp UK </h3>
-									</li>
-									<li>
-										<h3 class="icon fa-mobile"><span class="label">Phone</span>
-										&nbsp +44 (0)1865 (2)83011</h3>
-									</li>
-									<li>
-										<h3 class="icon fa-envelope-o"><span class="label">Email</span>
-										<a href="mailto:sandor.kruk@physics.ac.uk">&nbsp sandor.kruk AT physics.ac.uk</a></h3>
-									</li>`
-								</ul>
-							</div>
-						</div>
-					</section>
+          <section class="colorlib-services" data-section="services">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">What I do?</span>
+                  <h2 class="colorlib-heading">
+                    Ongoing projects
+                  </h2>
+                </div>
+              </div>
+              <div class="row row-pt-md">
+                <div class="col-md-4 text-center animate-box">
+                  <div class="services color-1">
+                    <span class="icon">
+                      <i class="icon-asteroid"></i>
+                    </span>
+                    <div class="desc">
+                      <h3><a href="https://www.zooniverse.org/projects/sandorkruk/hubble-asteroid-hunter">Hubble Asteroid Hunter</a></h3>
+                      <p>
+                        Project Principal Investigator. Citizen science 
+                        project to identify asteroids observed serendipituously in images 
+                        of the Hubble Space Telescope. 
+                        Data mining of archives and identification
+                        of rare objects. Collaborating with scientists at the the ESA 
+                        Science Data Centre & Google.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center animate-box">
+                  <div class="services color-2">
+                    <span class="icon">
+                      <i class="icon-euclid"></i>
+                    </span>
+                    <div class="desc">
+                      <h3><a href="https://sci.esa.int/web/euclid">Euclid</a></h3>
+                      <p>
+                        Leading a project on the detailed visual morphology of
+                        galaxies which will be observed by the ESA Euclid mission, 
+                        to be launched in 2022. Member of the Euclid Consortium Galaxy 
+                        & AGN Evolution, Solar System Objects Science Working Groups and  
+                        the ESA-ESTEC Euclid team.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center animate-box">
+                  <div class="services color-3">
+                    <span class="icon">
+                      <i class="icon-galaxy"></i>
+                    </span>
+                    <div class="desc">
+                      <h3><a href="https://www.zooniverse.org/projects/zookeeper/galaxy-zoo/">Galaxy Zoo</a></h3>
+                      <p>
+                        Core member of the Galaxy Zoo and Zooniverse teams. Building citizen science projects
+                        in astronomy and space science. Communicating and engaging  with citizen scientists in 
+                        research projects related to galaxy morphology, asteroids and gravitational lensing. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
 
-			</div>
+          <section class="colorlib-experience" data-section="experience">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">Experience</span>
+                  <h2 class="colorlib-heading animate-box">Career</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="timeline-centered">
+                    <article
+                      class="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                    >
+                      <div class="timeline-entry-inner">
+                        <div class="timeline-icon color-1">
+                          <i class="icon-pen2"></i>
+                        </div>
 
-		<!-- Footer -->
-			<div id="footer">
+                        <div class="timeline-label">
+                          <h2>
+                            <a href="#">Research Fellow at the European Space Agency, Netherlands</a>
+                            <span>2018-2021</span>
+                          </h2>
+                          <p>
+                              <li>
+                                <strong>Independent research fellowship</strong> in space science at ESA-ESTEC (Netherlands). Mentor: Dr René Laureijs (Euclid project scientist)
+                              </li>
+                              <li>
+                                Working with <strong>Hubble Space Telescope</strong> data and planning for the future ESA <strong>Euclid</strong> mission 
+                              </li>
+                               <li>
+                                Leading <strong>citizen science</strong> and <strong>machine learning</strong> projects, in collaboration with scientists at the ESA Science Data Centre (ESDC) in Madrid
+                              </li>
+                              <li>
+                                Functional work includes supporting the ESA Voyage 2050 long-term planning of science missions
+                              </li>
+                          </p>
+                        </div>
+                      </div>
+                    </article>
 
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Sandor Kruk. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+                    <article
+                      class="timeline-entry animate-box"
+                      data-animate-effect="fadeInRight"
+                    >
+                      <div class="timeline-entry-inner">
+                        <div class="timeline-icon color-2">
+                          <i class="icon-pen2"></i>
+                        </div>
+                        <div class="timeline-label">
+                          <h2>
+                            <a href="#"
+                              >DPhil Astrophysics at University of Oxford, UK</a
+                            >
+                            <span>2014-2018</span>
+                          </h2>
+                          <p>
+                              <li>
+                                Phd thesis: <a href="https://ora.ox.ac.uk/objects/uuid:34cc9283-a386-464f-b9ae-1d4e3b4fdf77">Evolution of Barred Galaxies and Associated Structures</a>. Advisor: Prof Chris Lintott
+                              </li>
+                              <li>
+                                Worked together with the <strong>Galaxy Zoo</strong> and <strong>Zooniverse</strong>  teams in Oxford
+                              </li>
+                               <li>
+                                <strong>Leader</strong> of the UK team in the International Olympiads on Astronomy and Astrophysics. Achieved 1 Gold, 4 Silver and 3 Bronze Medals
+                              </li>
+                          </p>
+                        </div>
+                      </div>
+                    </article>
 
-			</div>
+                    <article
+                      class="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                    >
+                      <div class="timeline-entry-inner">
+                        <div class="timeline-icon color-3">
+                          <i class="icon-pen2"></i>
+                        </div>
+                        <div class="timeline-label">
+                          <h2>
+                            <a href="#">Bachelor and Master in Astrophysics at University College London, UK</a>
+                            <span>2010-2014</span>
+                          </h2>
+                          <p>
+                              <li>
+                                Master Thesis: Cosmic ray acceleration in Fermi Bubbles. Advisor: Prof Kinwah Wu (MSSL)
+                              </li>
+                              <li>
+                                Graduated top of class. Prizes for the <strong>Best Performance</strong> every year in the MSci Astrophysics degree at UCL
+                              </li>
+                               <li>
+                                Commended on <strong>Dean's List</strong> for being in top 5% undergraduates of the Mathematical & Physical Sciences Faculty at UCL
+                              </li>
+                          </p>
+                        </div>
+                      </div>
+                    </article>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+                    <article
+                      class="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                    >
+                      <div class="timeline-entry-inner">
+                        <div class="timeline-icon color-5">
+                          <i class="icon-pen2"></i>
+                        </div>
+                        <div class="timeline-label">
+                          <h2>
+                            <a href="#">High School Education at "Vasile Lucaciu" National College in Baia Mare, Romania</a>
+                            <span>2006-2010</span>
+                          </h2>
+                          <p>
+                              <li>
+                                Specialised in Mathematics, Informatics and English 
+                              </li>
+                              <li>
+                                Graduated top of class. Romanian Baccalaureate exam (Romanian, Mathematics and Physics) GPA: 9.71/10 
+                              </li>
+                               <li>
+                                Member of the Romanian team of five students and medalist in the international astronomy and astrophysics olympiads 2008-2010: <strong>Gold, Silver, Bronze Medals</strong>, 
+                                and <strong>Honourable Mention</strong>
+                          </p>
+                        </div>
+                      </div>
+                    </article>
 
-	</body>
+                    <article
+                      class="timeline-entry begin animate-box"
+                      data-animate-effect="fadeInBottom"
+                    >
+                      <div class="timeline-entry-inner">
+                        <div class="timeline-icon color-none"></div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <section class="colorlib-education" data-section="awards">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">Prizes I received</span>
+                  <h2 class="colorlib-heading animate-box">Awards</h2>
+                </div>
+              </div>
+
+              
+              <div class="row">
+                <div
+                  class="col-md-12 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="fancy-collapse-panel">
+                    <div
+                      class="panel-group"
+                      id="accordion"
+                      role="tablist"
+                      aria-multiselectable="true"
+
+
+                      <p>
+                        I have been fortunate to be awarded prizes for my academic achievements and social impact.
+                      </p>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading-2" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              href="https://www2.physics.ox.ac.uk/news/2019/01/17/galaxy-zoo-wins-the-ras-group-achievement-award#:~:text=The%20Royal%20Astronomical%20Society%20has,to%20the%20Galaxy%20Zoo%20team."
+                              aria-expanded="false"
+                              aria-controls="collapseTwo"
+                              >Royal Astronomical Society <b>Group Achievement Award</b> 2019
+                            </a>
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading-2" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              href="https://www2.physics.ox.ac.uk/news/2019/01/17/galaxy-zoo-wins-the-ras-group-achievement-award#:~:text=The%20Royal%20Astronomical%20Society%20has,to%20the%20Galaxy%20Zoo%20team."
+                              aria-expanded="false"
+                              aria-controls="collapseTwo"
+                              ><strong>First prize for Citizens' Initiavies</strong> for Oxford for Romania awarded by the Civil Society Gala 2019
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseThree"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingThree"
+                        >
+                          <div class="panel-body">                     
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading-2" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              data-parent="#accordion"
+                              aria-expanded="false"
+                              aria-controls="collapseThree"
+                              ><b>Ambassador’s Diploma</b> for reserch and social impact awarded by the Romanian Ambassador in the UK 2017
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseThree"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingThree"
+                        >
+                          <div class="panel-body">                     
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading-2" role="tab" id="headingFour">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              data-parent="#accordion"
+                              aria-expanded="false"
+                              aria-controls="collapseFour"
+                              ><b>Special Award for Excellency during Doctoral Studies</b> awarded by the League of Romanian Students Abroad, supported by the Romanian Presidential Cabinet and Romanian Academy 2017 
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseFour"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingFour"
+                        >
+                          <div class="panel-body">
+                          </div>
+                        </div>
+                      </div>    
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading-2" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              data-parent="#accordion"
+                              aria-expanded="false"
+                              aria-controls="collapseThree"
+                              ><b>Clockmakers' Prize</b> from London Worshipful Company of Clockmakers 2014
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseThree"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingThree"
+                        >
+                          <div class="panel-body">                     
+                          </div>
+                        </div>
+                      </div>                    
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading-2" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              data-parent="#accordion"
+                              aria-expanded="false"
+                              aria-controls="collapseThree"
+                              ><b>Dean’s List</b> award for being in top 5% undergraduates of the Mathematical & Physical Sciences Faculty at UCL 2014
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseThree"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingThree"
+                        >
+                          <div class="panel-body">                     
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading-2" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              data-parent="#accordion"
+                              aria-expanded="false"
+                              aria-controls="collapseThree"
+                              >Prizes for the <b>Best Performance</b> every year, from 1st to 4th year, during the MSci Astrophysics degree at UCL 2010-2014
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseThree"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingThree"
+                        >
+                          <div class="panel-body">                     
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading-2" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              data-parent="#accordion"
+                              aria-expanded="false"
+                              aria-controls="collapseThree"
+                              ><b>Gold Medal</b>, <b>Bronze Medal</b> and <b>Honourable Mention</b> in the 2nd, 3rd & 4th International Olympiads on Astronomy and Astrophysics 2008-2010 (Indonesia, Iran, China)
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseThree"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingThree"
+                        >
+                          <div class="panel-body">                     
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading-2" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              data-parent="#accordion"
+                              aria-expanded="false"
+                              aria-controls="collapseThree"
+                              ><b>Silver Medal</b> in the XIVth International Astronomy Olympiad 2009 (China)
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseThree"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingThree"
+                        >
+                          <div class="panel-body">                     
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <section class="colorlib-education" data-section="education">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">My published work</span>
+                  <h2 class="colorlib-heading animate-box">Publications</h2>
+                </div>
+              </div>
+
+                        <p>
+                          Links to my <a href="https://ui.adsabs.harvard.edu/search/q=Kruk%2C%20Sandor&sort=date%20desc%2C%20bibcode%20desc&p_=0"><strong>ADS Publications</strong></a> and <a href="https://arxiv.org/search/?query=Kruk%2C+Sandor&searchtype=all&source=header"><strong>arXiv Preprints</strong></a> <br>
+
+
+                          Google Scholar <a href="https://scholar.google.com/citations?user=3QasQr4AAAAJ&hl=en"><strong>h-index:10</strong></a> and 
+                          <a href="https://orcid.org/0000-0001-8010-8879"><strong>ORCID iD</strong></a>. Selected first author publications below.
+                        </p>
+
+              
+              <div class="row">
+                <div
+                  class="col-md-12 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="fancy-collapse-panel">
+                    <div
+                      class="panel-group"
+                      id="accordion"
+                      role="tablist"
+                      aria-multiselectable="true"
+                    >
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              data-toggle="collapse"
+                              data-parent="#accordion"
+                              href="#collapseTwo"
+                              aria-expanded="false"
+                              aria-controls="collapseTwo"
+                              ><b>Revealing the cosmic evolution of boxy/peanut-shaped bulges from HST COSMOS and SDSS</b> <br><br>
+                              Sandor Kruk, Peter Erwin, Victor Debattista, Chris Lintott, MNRAS 490, 4721 (2019)
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseTwo"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingTwo"
+                        >
+                          <div class="panel-body">
+                            <p>
+                              Vertically thickened bars, observed in the form of boxy/peanut (B/P) bulges, are found in the majority of massive barred disc galaxies in the local Universe, including our own. B/P bulges indicate that their host bars have suffered violent bending instabilities driven by anisotropic velocity distributions. We investigate for the first time how the frequency of B/P bulges in barred galaxies evolves from z = 1 to z ≈ 0, using a large sample of non-edge-on galaxies with masses logM⋆ > 10 logM☉, selected from the HST COSMOS survey. We find the observed fraction increases from 0^+3.6_0.0 per cent at z = 1 to 37.8^+5.4_-5.1 per cent at z = 0.2. We account for problems identifying B/P bulges in galaxies with low inclinations and unfavourable bar orientations, and due to redshift-dependent observational biases with the help of a sample from the Sloan Digital Sky Survey, matched in resolution, rest-frame band, signal-to-noise ratio and stellar mass and analysed in the same fashion. From this, we estimate that the true fraction of barred galaxies with B/P bulges increases from ∼10 per cent at z ≈ 1 to ∼ 70 per cent at z = 0. In agreement with previous results for nearby galaxies, we find a strong dependence of the presence of a B/P bulge on galaxy stellar mass. This trend is observed in both local and high-redshift galaxies, indicating that it is an important indicator of vertical instabilities across a large fraction of the age of the Universe. We propose that galaxy formation processes regulate the thickness of galaxy discs, which in turn affect which galaxies experience violent bending instabilities of the bar. <br><br>
+                              </p>
+                              <a href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.4721K/abstract"><strong>Link to paper</strong></a>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              data-toggle="collapse"
+                              data-parent="#accordion"
+                              href="#collapseThree"
+                              aria-expanded="false"
+                              aria-controls="collapseThree"
+                              ><b>Galaxy Zoo: secular evolution of barred galaxies from structural decomposition of multiband images</b> <br><br>
+                                Sandor Kruk <i>et al.</i>, MNRAS 473, 4731 (2018)
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseThree"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingThree"
+                        >
+                          <div class="panel-body">
+                          <p>
+                            We present the results of two-component (disc+bar) and three-component (disc+bar+bulge) multiwavelength 2D photometric decompositions of barred galaxies in five Sloan Digital Sky Survey (SDSS) bands (ugriz). This sample of ∼3500 nearby (z < 0.06) galaxies with strong bars selected from the Galaxy Zoo citizen science project is the largest sample of barred galaxies to be studied using photometric decompositions that include a bar component. With detailed structural analysis, we obtain physical quantities such as the bar- and bulge-to-total luminosity ratios, effective radii, Sérsic indices and colours of the individual components. We observe a clear difference in the colours of the components, the discs being bluer than the bars and bulges. An overwhelming fraction of bulge components have Sérsic indices consistent with being pseudo-bulges. By comparing the barred galaxies with a mass-matched and volume-limited sample of unbarred galaxies, we examine the connection between the presence of a large-scale galactic bar and the properties of discs and bulges. We find that the discs of unbarred galaxies are significantly bluer compared to the discs of barred galaxies, while there is no significant difference in the colours of the bulges. We find possible evidence of secular evolution via bars that leads to the build-up of pseudo-bulges and to the quenching of star formation in the discs. We identify a subsample of unbarred galaxies with an inner lens/oval and find that their properties are similar to barred galaxies, consistent with an evolutionary scenario in which bars dissolve into lenses. This scenario deserves further investigation through both theoretical and observational work.
+
+                          </p>
+                            <a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.4731K/abstract"><strong>Link to paper</strong></a>                            
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              data-toggle="collapse"
+                              data-parent="#accordion"
+                              href="#collapseFour"
+                              aria-expanded="false"
+                              aria-controls="collapseFour"
+                              ><b>Galaxy Zoo: finding offset discs and bars in SDSS galaxies</b> <br><br>
+                                Sandor Kruk <i>et al.</i>, MNRAS 469, 3363 (2017)
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseFour"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingFour"
+                        >
+                          <div class="panel-body">
+                            <p>
+                                We use multiwavelength Sloan Digital Sky Survey (SDSS) images and Galaxy Zoo morphologies to identify a sample of ∼270 late-type galaxies with an off-centre bar. We measure offsets in the range 0.2-2.5 kpc between the photometric centres of the stellar disc and stellar bar. The measured offsets correlate with global asymmetries of the galaxies, with those with largest offsets showing higher lopsidedness. These findings are in good agreement with predictions from simulations of dwarf-dwarf tidal interactions producing off-centre bars. We find that the majority of galaxies with off-centre bars are of Magellanic type, with a median mass of 109.6 M☉, and 91 per cent of them having M⋆ < 3 × 1010 M☉, the characteristic mass at which galaxies start having higher central concentrations attributed to the presence of bulges. We conduct a search for companions to test the hypothesis of tidal interactions, but find that a similar fraction of galaxies with offset bars have companions within 100 kpc as galaxies with centred bars. Although this may be due to the incompleteness of the SDSS spectroscopic survey at the faint end, alternative scenarios that give rise to offset bars such as interactions with dark companions or the effect of lopsided halo potentials should be considered. Future observations are needed to confirm possible low-mass companion candidates and to determine the shape of the dark matter halo, in order to find the explanation for the off-centre bars in these galaxies.
+
+                            </p>
+                            <a href="https://ui.adsabs.harvard.edu/abs/2017MNRAS.469.3363K/abstract"><strong>Link to paper</strong></a>   
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <section class="colorlib-work" data-section="work">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">Where my work appeared</span>
+                  <h2 class="colorlib-heading animate-box">Press Releases</h2>
+                </div>
+              </div>
+              <div
+                class="row row-bottom-padded-sm animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+              </div>
+              <div class="row">
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div
+                    class="project"
+                    style="background-image: url(images/crab.jpg)"
+                  >
+                    <div class="desc">
+                      <div class="con">
+                        <h3><a href="https://www.esa.int/ESA_Multimedia/Images/2019/10/Foreground_asteroid_passing_the_Crab_Nebula">Foreground asteroid passing the Crab Nebula</a></h3>
+                        <span>ESA Science Image of the Week</span>
+                        <p class="icon">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div
+                    class="project"
+                    style="background-image: url(images/one_galaxy_two_asteroids.jpg)"
+                  >
+                    <div class="desc">
+                      <div class="con">
+                        <h3><a href="https://www.esa.int/ESA_Multimedia/Images/2020/06/One_galaxy_two_asteroids">One galaxy, two asteroids</a></h3>
+                        <span>ESA Science Image of the Week</span>
+                        <p class="icon">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInTop"
+                >
+                  <div
+                    class="project"
+                    style="background-image: url(images/Hubble_s_celestial_peanut.jpg)"
+                  >
+                    <div class="desc">
+                      <div class="con">
+                        <h3><a href="https://www.esa.int/ESA_Multimedia/Images/2019/12/Hubble_s_celestial_peanut">Hubble’s celestial peanut</a></h3>
+                        <span>ESA Science Image of the Week</span>
+                        <p class="icon"> 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInBottom"
+                >
+                  <div
+                    class="project"
+                    style="background-image: url(images/Abell370.jpg)"
+                  >
+                    <div class="desc">
+                      <div class="con">
+                        <h3><a href="https://www.spacetelescope.org/announcements/ann1907/">Search for Hidden Asteroids with the Hubble Asteroid Hunter</a></h3>
+                        <span>Space Science Telescope</span>
+                        <p class="icon">
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+          </section>
+
+          <section class="colorlib-blog" data-section="blog">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">My projects</span>
+                  <h2 class="colorlib-heading">Education</h2>
+                </div>
+              </div>
+                        <p>
+                          Coming from a country with a small representation in the international astronomy and science research community, I have a strong passion for helping others to discover their passion for science and enable them to succeed in their careers. Over the last five years, I have set up three initiatives to support young people in their scientific journey. Through these initiatives, thousands of students engage with science every year and have access to world-class researchers from all over the world as mentors. You can read about these projects below.
+                        </p>
+
+
+              <div class="row">
+                <div
+                  class="col-md-4 col-sm-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="blog-entry">
+                    <a href="https://romaniansciencefestival.ro" class="blog-img"
+                      ><img
+                        src="images/RSF2.jpg"
+                        class="img-responsive"
+                        alt="HTML5 Bootstrap Template by colorlib.com"
+                    /></a>
+                    <div class="desc">
+                      <span
+                        ><small> Non-formal science education </small> |
+                        <small> Science Festival </small> |
+                      
+                      <h3>
+                        <a href="https://romaniansciencefestival.ro/">Romanian Science Festival</a>
+                      </h3>
+                      <p>
+                        Initiated and coordinated the first national science festival in Romania. Organised in 3 cities in 2019, with over 700 volunteers, 50 mentors and 20,000 participants. Moved online in 2020, with regular science webinars and scientists joining online classes. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4 col-sm-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="blog-entry">
+                    <a href="https://www.oxfordforromania.org" class="blog-img"
+                      ><img
+                        src="images/Oxford_for_Romania.jpg"
+                        class="img-responsive"
+                        alt="HTML5 Bootstrap Template by colorlib.com"
+                    /></a>
+                    <div class="desc">
+                      <span
+                        ><small>Education </small> |
+                        <small> Summer School </small> |
+                      
+                      <h3><a href="https://www.oxfordforromania.org/">Oxford for Romania</a></h3>
+                      <p>
+                        Co-founded a yearly multi-disciplinary summer school for 25 bright Romanian students from disadvantaged backgrounds organised in Oxford colleges. Empower young people to discover their talents, encounter new career perspectives and participate in the society.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4 col-sm-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="blog-entry">
+                    <a href="https://www.bpho.org.uk/baao" class="blog-img"
+                      ><img
+                        src="images/IOAA.jpg"
+                        class="img-responsive"
+                        alt="HTML5 Bootstrap Template by colorlib.com"
+                    /></a>
+                    <div class="desc">
+                      <span
+                        ><small>Astronomy Education </small> |
+                        <small> Olympiad </small> |
+                      <h3><a href="https://www.bpho.org.uk/baao">British Astronomy and Astrophysics Olympiad</a></h3>
+                      <p>
+                        Founded the first national Astronomy and Astrophysics olympiad in the UK, with 1000+ participants every year. Gateway to the <a href="http://www.ioaastrophysics.org/">International Olympiads in Astronomy and Astrophysics</a>. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+          <section class="colorlib-blog" data-section="outreach">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">My projects</span>
+                  <h2 class="colorlib-heading">Outreach and Public Engagement</h2>
+                </div>
+              </div>
+                        <p>
+                          I enjoy communicating science and have given many public talks to a diverse range of audiences, both in person and online. If you would like me to give a talk please get in touch using the contact below. 
+                          I organise workshops popularising astronomy and space at science festivals and open days. I coordinate a program connecting researchers from abroad with classrooms in Romania, giving young people the opportunity to meet real scientists.
+                        </p>
+
+
+              <div class="row">
+                <div
+                  class="col-md-4 col-sm-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="blog-entry">
+                    <a href="https://www.facebook.com/1495471430689861/videos/315222722818129/?__so__=channel_tab&__rv__=all_videos_card" class="blog-img"
+                      ><img
+                        src="images/Talks.jpg"
+                        class="img-responsive"
+                        alt="HTML5 Bootstrap Template by colorlib.com"
+                    /></a>
+                    <div class="desc">
+                      <span
+                        ><small> Space Talks </small> |
+                        <small> Webinars </small> |
+                      
+                      <h3>
+                        <a href="#">Outreach Talks</a>
+                      </h3>
+                      <p>
+                        Latest pulic talks (2020) include: <a href="https://www.facebook.com/events/1827191477414078/">ESA Science Missions - Exploring the unknown</a>, EUROAVIA, Bucharest; <a href="https://www.facebook.com/1495471430689861/videos/315222722818129/?__so__=channel_tab&__rv__=all_videos_card">30 years of the Hubble Space Telescope</a>, ESERO "Bringing Space to your Homes" (online); <a href="https://www.youtube.com/watch?v=YK6uslXiNNE&t=213s&ab_channel=RomanianScienceFestival">Three (astronomical) ways the world will end</a>, Webinar (online).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4 col-sm-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="blog-entry">
+                    <a href="https://www.oxfordforromania.org" class="blog-img"
+                      ><img
+                        src="images/TSF.jpeg"
+                        class="img-responsive"
+                        alt="HTML5 Bootstrap Template by colorlib.com"
+                    /></a>
+                    <div class="desc">
+                      <span
+                        ><small>Non-formal education </small> |
+                        <small> Experiments </small> |
+                      
+                      <h3><a href="#">Science Workshops</a></h3>
+                      <p>
+                        I am regularly invited to science festivals and open days to organise science workshops and present experiments to the public. Latest events include: Ireland Maths Festival, Oxford Science Festival, ESA Open Days.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4 col-sm-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="blog-entry">
+                    <a href="https://www.bpho.org.uk/baao" class="blog-img"
+                      ><img
+                        src="images/invite-a-mentor.jpeg"
+                        class="img-responsive"
+                        alt="HTML5 Bootstrap Template by colorlib.com"
+                    /></a>
+                    <div class="desc">
+                      <span
+                        ><small>Education </small> |
+                        <small> Role Models </small> |
+                      <h3><a href="#">Invite a mentor to your online classroom</a></h3>
+                      <p>
+                        To support the education during the pandemic, I created a platform where scientists can connect with teachers and participate in online classrooms. In April-June 2020, 25 researchers participated in 55 classes, reaching 1000+ young people in Romania.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+          <section class="colorlib-contact" data-section="contact">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">Get in Touch</span>
+                  <h2 class="colorlib-heading">Contact</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5">
+                  <div
+                    class="colorlib-feature colorlib-feature-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="colorlib-icon">
+                      <i class="icon-globe-outline"></i>
+                    </div>
+                    <div class="colorlib-text">
+                      <p><a href="mailto:sandor.kruk@esa.int">sandor.kruk@esa.int</a></p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="colorlib-feature colorlib-feature-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="colorlib-icon">
+                      <i class="icon-map"></i>
+                    </div>
+                    <div class="colorlib-text">
+                      <p>European Space Research and Technology Centre (ESTEC), Keplerlaan 1, 2201 AZ Noordwijk, The Netherlands </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="colorlib-feature colorlib-feature-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="colorlib-icon">
+                      <i class="icon-phone"></i>
+                    </div>
+                    <div class="colorlib-text">
+                      <p><a href="tel://">+31 71 565 5160</a></p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-7 col-md-push-1">
+                  <div class="row">
+                    <div
+                      class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box"
+                      data-animate-effect="fadeInRight"
+                    >
+
+                  <div
+                    class="colorlib-feature colorlib-feature-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="colorlib-icon">
+                      <i class="icon-facebook2"></i>
+                    </div>
+                    <div class="colorlib-text">
+                      <p><a href="https://www.facebook.com/kruk.sandor"> Sandor Kruk </a></p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="colorlib-feature colorlib-feature-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="colorlib-icon">
+                      <i class="icon-twitter2"></i>
+                    </div>
+                    <div class="colorlib-text">
+                      <p><a href="https://twitter.com/kruksandor?lang=en">@sandorkruk</a></p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="colorlib-feature colorlib-feature-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="colorlib-icon">
+                      <i class="icon-linkedin2"></i>
+                    </div>
+                    <div class="colorlib-text">
+                      <p><a href="https://www.linkedin.com/in/sandor-kruk/">Sandor Kruk</a></p>
+                    </div>
+                  </div>                           
+
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- end:colorlib-main -->
+      </div>
+      <!-- end:container-wrap -->
+    </div>
+    <!-- end:colorlib-page -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Counters -->
+    <script src="js/jquery.countTo.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
