@@ -1395,6 +1395,33 @@
 .icon-galaxy:before {
   content: url(../images/Galaxy_Zoo.jpeg);
 }
+.icon-satellites:before{
+  content: url(../images/icy3x1qzq_flc.fits.jpg);
+}
+.icon-esa:before{
+  content:url(../images/ESA.png);
+}
+.icon-oxford:before{
+  content:url(../images/oxford.png);
+}
+.icon-ucl:before{
+  content:url(../images/UCL.jpg);
+}
+.icon-lucaciu:before{
+  content:url(../images/lucaciu.jpg);
+}
+
+.icon-teaching:before{
+  content:url(../images/129-1290969_teacher-icon-teachin.png);
+}
+
+.icon-project:before{
+  content:url(../images/project.png);
+}
+
+.icon-skills:before{
+  content:url(../images/skills.png);
+}
 
 .icon-pen2:before {
   content: "\e90f";

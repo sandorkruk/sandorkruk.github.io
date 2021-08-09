@@ -417,24 +417,41 @@ figure figcaption {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #000;
+  color: #fff;
   padding: 10px 15px !important;
   border: none;
   font-weight: 400;
 }
 #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
   color: #fff;
   border: 2px solid #fff;
   font-weight: 700;
   background: transparent !important;
 }
+
+#colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover, .slider-text-inner .btn.btn-learn:focus, .slider-text-inner .btn.btn-learn:active  {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: 2px solid #fff;
+}
+
 #colorlib-hero
   .flexslider
   .slider-text
   > .slider-text-inner
   .btn.btn-learn:hover {
   background: transparent !important;
-  border: 1px solid #000 !important;
+  border: 2px solid #fff !important;
 }
 @media screen and (max-width: 768px) {
   #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
@@ -487,6 +504,8 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-work,
 .colorlib-about,
 .colorlib-services,
+.colorlib-services1,
+
 .colorlib-contact {
   padding-top: 4em;
   padding-bottom: 9em;
@@ -502,6 +521,8 @@ body.offcanvas .colorlib-nav-toggle {
   .colorlib-work,
   .colorlib-about,
   .colorlib-services,
+  .colorlib-services1,
+
   .colorlib-contact {
     padding-top: 5em;
     padding-bottom: 8em;
@@ -701,18 +722,15 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner {
   position: relative;
-  margin-left: -20px;
+  margin-left: -25px;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
-  display: block;
-  width: 40px;
-  height: 40px;
-  background: #2c98f0;
-  -webkit-border-radius: 50%;
+  display: iblock;
+  width: 50px;
+  height: 50px;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
   text-align: center;
   -moz-box-shadow: 0 0 0 5px #f2f3f7;
   -webkit-box-shadow: 0 0 0 5px #f2f3f7;
@@ -752,8 +770,8 @@ body.offcanvas .colorlib-nav-toggle {
   .timeline-entry-inner
   .timeline-icon.color-none {
   background: #fff;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   margin-left: 10px;
 }
 
@@ -869,7 +887,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .services .icon {
   position: absolute;
-  top: -20px;
+  top: -25px;
   left: 0;
   right: 0;
   width: 100px;
@@ -877,7 +895,9 @@ body.offcanvas .colorlib-nav-toggle {
   display: table;
   margin: 0 auto;
   background: #2c98f0;
+  
 }
+
 .services .icon:before,
 .services .icon:after {
   position: absolute;
@@ -892,6 +912,7 @@ body.offcanvas .colorlib-nav-toggle {
   border-style: solid;
   border-width: 0 50px 30px 50px;
   border-color: transparent transparent #2c98f0 transparent;
+
 }
 .services .icon:after {
   bottom: -30px;
@@ -901,6 +922,7 @@ body.offcanvas .colorlib-nav-toggle {
   border-width: 30px 50px 0 50px;
   border-color: #2c98f0 transparent transparent transparent;
 }
+
 .services .icon i {
   font-size: 30px;
   color: #fff;
@@ -1869,6 +1891,179 @@ body.offcanvas .colorlib-nav-toggle {
 .js .animate-box {
   opacity: 0;
 }
+
+.services{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.services:hover, .services:focus, .services:active{
+
+  box-shadow:10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.services1 {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 1.5em;
+  -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  border-bottom: 2px solid #2c98f0;
+}
+.services1 .icon2 {
+  display: block;
+  margin-bottom: 20px;
+}
+.services1 .icon2 i {
+  font-size: 30px;
+  color: #2c98f0;
+}
+.services1 h3 {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.services1.color-2 {
+  border-bottom: 2px solid #ec5453;
+}
+.services1.color-2 .icon2 i {
+  color: #ec5453;
+}
+.services1.color-3 {
+  border-bottom: 2px solid #f9bf3f;
+}
+.services1.color-3 .icon2 i {
+  color: #f9bf3f;
+}
+.services1.color-4 {
+  border-bottom: 2px solid #a84cb8;
+}
+.services1.color-4 .icon2 i {
+  color: #a84cb8;
+}
+.services1.color-5 {
+  border-bottom: 2px solid #2fa499;
+}
+.services1.color-6 {
+  border-bottom: 2px solid #4054b2;
+}
+
+.services1 {
+  margin-bottom: 80px;
+  position: relative;
+  z-index: 0;
+}
+@media screen and (max-width: 768px) {
+  .services1 {
+    margin-bottom: 4em;
+  }
+}
+.services1 .icon {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+  width: 100px;
+  height: 50px;
+  display: table;
+  margin: 0 auto;
+  background: #2c98f0;
+}
+.services1 .icon:before,
+.services1 .icon:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  content: "";
+}
+.services1 .icon:before {
+  top: -30px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50px 30px 50px;
+  border-color: transparent transparent #2c98f0 transparent;
+
+}
+.services1 .icon:after {
+  bottom: -30px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 50px 0 50px;
+  border-color: #2c98f0 transparent transparent transparent;
+}
+.services1 .icon i {
+  font-size: 30px;
+  color: #fff;
+  z-index: 1;
+  display: table-cell;
+  vertical-align: middle;
+}
+.services1 .desc {
+  margin-top: 60px;
+}
+.services1 .desc h3 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.services1.color-2 .icon {
+  background: #ec5453;
+}
+.services1.color-2 .icon:before {
+  border-color: transparent transparent #ec5453 transparent;
+}
+.services1.color-2 .icon:after {
+  border-color: #ec5453 transparent transparent transparent;
+}
+.services1.color-3 .icon {
+  background: #f9bf3f;
+}
+.services1.color-3 .icon:before {
+  border-color: transparent transparent #f9bf3f transparent;
+}
+.services1.color-3 .icon:after {
+  border-color: #f9bf3f transparent transparent transparent;
+}
+.services1.color-4 .icon {
+  background: #a84cb8;
+}
+.services1.color-4 .icon:before {
+  border-color: transparent transparent #a84cb8 transparent;
+}
+.services1.color-4 .icon:after {
+  border-color: #a84cb8 transparent transparent transparent;
+}
+.services1.color-5 .icon {
+  background: #2fa499;
+}
+.services1.color-5 .icon:before {
+  border-color: transparent transparent #2fa499 transparent;
+}
+.services1.color-5 .icon:after {
+  border-color: #2fa499 transparent transparent transparent;
+}
+.services1.color-6 .icon {
+  background: #4054b2;
+}
+.services1.color-6 .icon:before {
+  border-color: transparent transparent #4054b2 transparent;
+}
+.services1.color-6 .icon:after {
+  border-color: #4054b2 transparent transparent transparent;
+}	
 
 #colorlib-aside .colorlib-footer ul li a {
   /* color: rgba(255, 255, 255, 0.3); */
