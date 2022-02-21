@@ -1401,6 +1401,9 @@
 .icon-esa:before{
   content:url(../images/ESA.png);
 }
+.icon-mpe:before{
+  content:url(../images/mpe.png);
+}
 .icon-oxford:before{
   content:url(../images/oxford.png);
 }
